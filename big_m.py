@@ -8,7 +8,6 @@ def print_tableau(tableau, columns, basic_vars, iteration):
     print(df.to_string(index=False))
 
 def big_m_method():
-    # Big-M penalty
     M = 10000 
     
     columns = ['x1', 'x2', 's1', 's2', 'a1', 'RHS']
